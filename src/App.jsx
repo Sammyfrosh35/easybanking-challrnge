@@ -1,13 +1,39 @@
+import Articles from "./Components/Articles"
+import Footer from "./Components/Footer"
+import Hero from "./Components/Hero"
+import Nav from "./Components/Nav"
+import Why from "./Components/Why"
 
 function App() {
 
 
   return (
-    <>
-    <div>
-      <h1>my lord is good</h1>
-    </div>
-    </>
+    <main>
+   
+   
+   <section className="top-0">
+     <Nav />
+     </section>
+    
+  <section>
+    <Hero />
+  </section>
+
+
+  <section>
+    <Why />
+  </section>
+
+  <section>
+    <Articles />
+  </section>
+
+  <section>
+    <Footer />
+  </section>
+
+
+    </main>
   )
 }
 
