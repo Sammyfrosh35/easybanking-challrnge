@@ -18,6 +18,9 @@ export default {
       fontFamily: {
         publicsans: ["Public Sans", 'sans-serif']
       },
+      backgroundImage: {
+        'hero-pattern': "url('/assets/images/bg-intro-desktop.svg')",
+      }
     },
   },
   

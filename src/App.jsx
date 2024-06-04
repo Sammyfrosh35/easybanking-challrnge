@@ -15,7 +15,7 @@ function App() {
      <Nav />
      </section>
     
-  <section>
+  <section bg>
     <Hero />
   </section>
 
