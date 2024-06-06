@@ -15,7 +15,7 @@ function App() {
      <Nav />
      </section>
     
-  <section className="bg-hero-pattern bg-no-repeat">
+  <section className="bg-hero-pattern bg-no-repeat bg-cover bg-center h-screen">
     <Hero />
   </section>
 

@@ -19,12 +19,11 @@ export default {
         publicsans: ["Public Sans", 'sans-serif']
       },
       backgroundImage: {
-        'hero-pattern': "url('/assets/images/bg-intro-desktop.svg')",
-      }
+        'hero-pattern': "url(../src/assets/images/bg-intro-desktop.svg)",
+      },
     },
   },
   
-
   plugins:[],
   // ...
 }

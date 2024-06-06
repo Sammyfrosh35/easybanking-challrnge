@@ -1,49 +1,4 @@
-// import React from 'react'
-// import  logo from "../assets/images/logo.svg"
-// import iconhamburger from "../assets/images/icon-hamburger.svg"
-// import '../index.css';
 
-// const Nav = () => {
-//   return (
-//    <header className=' z-10 w-full' >
-//     <nav className='flex  items-center w-full bg-white h-16'>
-    
-//     <div className='pl-20 max-lg:pl-2'>
-//       <a href="/">
-//       <img src={logo} alt="logo" width={130} height={29}  />
-//       </a>
-// </div>
-//       <ul className='flex-1 flex justify-center gap-5 items-center font-publicsans font-medium max-lg:hidden'>
-      
-//         <li><a href="" className='nav-link relative  px-4 py-4'>Home</a></li>
-//         <li><a href=""className='nav-link relative  px-4 py-4'>About</a></li>
-//         <li><a href=""className='nav-link relative  px-4 py-4'>Contact</a></li>
-//         <li><a href=""className='nav-link relative  px-4 py-4'>Blog</a></li>
-//         <li><a href=""className='nav-link relative  px-4 py-4'>Careers</a></li>
-//       </ul>
-
-//       <div className=' pr-28 max-lg:hidden'>
-//         <button className='h-10 w-40 text-[16px]  border-[2px] rounded-full bg-gradient-to-r from-lime-Green to-light-Grayish-Blue'>
-//           <a className='font-publicsans text-white'> Request invite</a>
-//         </button>
-
-        
-//     </div>
-
-//     <div className=' hidden max-lg:block ml-52'>
-//       <img src={iconhamburger}
-//       alt="ham" 
-//       width="24" 
-//       height="24"/>
-//     </div>
-       
-
-//     </nav>
-//    </header>
-//   )
-// }
-
-// export default Nav
 
 import React, { useState } from 'react';
 import logo from "../assets/images/logo.svg";
@@ -66,7 +21,7 @@ const Nav = () => {
             <img src={logo} alt="logo" width={130} height={29} />
           </a>
         </div>
-        <ul className='flex-1 flex justify-center gap-5 items-center font-publicsans font-medium max-lg:hidden'>
+        <ul className='flex-1 flex justify-center gap-5 items-center font-publicsans font-medium max-lg:hidden text-grayish-Blue'>
           <li><a href="#" className='nav-link relative px-4 py-4'>Home</a></li>
           <li><a href="#" className='nav-link relative px-4 py-4'>About</a></li>
           <li><a href="#" className='nav-link relative px-4 py-4'>Contact</a></li>
@@ -74,7 +29,7 @@ const Nav = () => {
           <li><a href="#" className='nav-link relative px-4 py-4'>Careers</a></li>
         </ul>
         <div className='pr-28 max-lg:hidden'>
-          <button className='h-10 w-40 text-[16px] border-[2px] rounded-full bg-gradient-to-r from-lime-Green to-light-Grayish-Blue'>
+          <button className='h-10 w-40 text-[16px] border-[2px] rounded-full bg-gradient-to-r from-lime-Green to-cyan-500'>
             <a className='font-publicsans text-white'>Request invite</a>
           </button>
         </div>
@@ -94,9 +49,7 @@ const Nav = () => {
             <li><a href="#" className='nav-link py-2'>Blog</a></li>
             <li><a href="#" className='nav-link py-2'>Careers</a></li>
             <li>
-              {/* <button className='h-10 w-40 mt-4 text-[16px] border-[2px] rounded-full bg-gradient-to-r from-lime-Green to-light-Grayish-Blue'>
-                <a className='font-publicsans text-white'>Request invite</a>
-              </button> */}
+             
             </li>
           </ul>
         </div>
