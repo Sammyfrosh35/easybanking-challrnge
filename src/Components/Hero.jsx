@@ -1,10 +1,10 @@
 import React from 'react'
-import heroimg from '../assets/images/bg-intro-desktop.svg';
+
 import '../index.css';
 
 const Hero = () => {
   return (
-    <section className=' hero bg-no-repeat h-screen bg-right-top bg-cover'>
+    <section className=' hero bg-no-repeat h-screen bg-right-top bg-fixed'>
 
     <div className='p-20'>
       <h1 className='font-publicsans font-medium text-3xl text-dark-Blue mb-3'>Next generation <br /> 
